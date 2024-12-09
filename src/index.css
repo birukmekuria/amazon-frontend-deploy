@@ -1,0 +1,11 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #febd69;
+  --primary-shade: #d49644;
+}

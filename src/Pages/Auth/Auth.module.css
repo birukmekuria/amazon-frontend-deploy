@@ -1,0 +1,89 @@
+.logIn {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logIn img {
+  margin: 30px auto;
+  object-fit: contain;
+  width: 100px;
+}
+
+.logIn__container {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+
+.logIn__container h1 {
+  font-size: 25px;
+  margin: 20px 0px;
+}
+
+.logIn__container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.logIn__container form div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.logIn__container form input {
+  margin-bottom: 10px;
+  padding: 8px 16px;
+  background-color: white;
+  width: 100%;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+
+.logIn__container form input:focus {
+  outline: 2px solid skyblue;
+}
+
+.logIn__signInButton {
+  border: none;
+  background: #f0c14b;
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.logIn__container p {
+  padding: 10px 0px;
+  font-size: 14px;
+}
+
+.logIn__signInButt:hover {
+  background-color: var(--primary-shade);
+}
+
+.login__container {
+  padding: 10px 0px;
+  font-size: 14px;
+}
+
+.logIn__registerButton {
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.logIn__registerButton {
+  background-color: lightgray;
+}
